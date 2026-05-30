@@ -29,6 +29,11 @@ When("retorno para o idioma {string}", (idioma) => {
 Then("devo visualizar o portal em espanhol", () => {
   cy.get(".gt_switcher .gt_selected a", { timeout: 30000 })
     .should("contain.text", "Español");
+
+  cy.wait(3000);
+  cy.contains("body", "Instituto Brasileño de Geografía y Estadística", {
+    timeout: 30000,
+  }).should("be.visible");
 });
 
 

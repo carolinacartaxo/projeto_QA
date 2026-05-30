@@ -54,9 +54,9 @@ npm -v
 ## Instalação
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/carolinacartaxo/projeto_QA.git
 
-cd <NOME_DO_PROJETO>
+cd projeto_QA
 
 npm install
 ```
