@@ -11,6 +11,13 @@ Os testes validam funcionalidades como abertura do painel de indicadores, busca 
 
 ---
 
+## Vídeo de apresentação
+
+Link do vídeo: https://www.youtube.com/watch?v=MWFxLWpsYNo
+
+---
+
+
 ## Tecnologias utilizadas
 
 - Cypress
